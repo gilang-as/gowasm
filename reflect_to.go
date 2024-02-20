@@ -1,4 +1,7 @@
-package wasm
+//go:build js && wasm
+// +build js,wasm
+
+package gowasm
 
 import (
 	"fmt"
